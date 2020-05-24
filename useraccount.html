@@ -1,0 +1,110 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">      
+<meta charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+        body {
+              
+              font-family: 'Fondamento', cursive;
+        }
+</style>
+<body>
+        <nav class="navbar navbar-expand-md  navbar-light fixed-top" style="background-color: #47ded6;box-shadow: 0  5px 10px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0)">
+
+          <img src="img/logo.png"style="height:50px">
+              <a href="home.html" class="navbar-brand" style="color: rgb(0, 0, 0)">&nbsp;Insurance Wale</a>
+                          <!-- Toggler/collapsibe Button -->
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                      
+                          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                
+                            <ul class="navbar-nav ">
+                                
+                              </li>
+                              </ul>
+                                   <!---kone wala button-->
+                        <style> 
+                            .overlay {
+                              height: 100%;
+                              width: 0;
+                              position: fixed;
+                              z-index: 1;
+                              top: 0;
+                              left: 0;
+                          
+                              background-color: #47ded6;
+                              overflow-x: hidden;
+                              transition: 0.5s;
+                            }
+                            
+                            .overlay-content {
+                              position: relative;
+                              top: 25%;
+                              width: 100%;
+                              text-align: center;
+                              margin-top: 30px;
+                            }
+                            
+                            .overlay a {
+                              padding: 8px;
+                              text-decoration: none;
+                              font-size: 36px;
+                              color: #0a0a0a;
+                              display: block;
+                              transition: 0.3s;
+                            }
+                            
+                            .overlay a:hover, .overlay a:focus {
+                              color: #111010;
+                            }
+                            
+                            .overlay .closebtn {
+                              position: absolute;
+                              top: 20px;
+                              right: 45px;
+                              font-size: 60px;
+                            }
+                            
+                            @media screen and (max-height: 450px) {
+                              .overlay a {font-size: 20px}
+                              .overlay .closebtn {
+                              font-size: 40px;
+                              top: 15px;
+                              right: 35px;
+                              }
+                            }
+                            </style>
+                            </head>
+                            <body>
+                            
+                            <div id="myNav" class="overlay">
+                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                              <div class="overlay-content">
+                                <a href="about.html">About</a>
+                                <a href="claim.html">Claim</a>
+                                <a href="clients.html">Clients</a>
+                              </div>
+                            </div>
+                            <a style="font-size:30px;color: rgb(0, 0, 0)" onclick="openNav()">&#9776; </a>
+                  
+                  <script>
+                  function openNav() {
+                    document.getElementById("myNav").style.width = "100%";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("myNav").style.width = "0%";
+                  }
+                  </script>
+                              </div>
+                      </nav>

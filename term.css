@@ -1,0 +1,75 @@
+body,html{
+  height: 100%;
+  width: 100%;
+}
+.bg{
+  margin: 0;
+  padding: 0;
+  background-image: url("img/term.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  
+}
+.box{
+  width: 360px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: transparent;
+  text-align: center;
+}
+.box h1{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.box h4{
+  color: rgb(255, 255, 255);
+}
+.box h5{
+  color: rgb(255, 255, 255);  
+}
+.box input[type="text"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 5px solid #fffb02;
+  padding: 24px 20px;
+  width: 200px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border-radius: 24px;
+  transition: 0.25s;
+  font-weight:900;
+}
+
+.box input[type="text"]:focus{
+  width: 280px;
+  border-color: #ffffff;
+}
+
+.box .btn[type="submit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 5px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box .btn[type="submit"]:hover{
+  background: #2ecc71;
+}
